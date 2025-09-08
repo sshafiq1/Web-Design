@@ -1,0 +1,63 @@
+h1 {
+    color: rgb(255, 129, 129);
+    font-size: 36px;
+    text-align: center;
+    margin: 30px 0px 30px 0px; 
+    /* top right bottom left (clockwise) */
+    padding: 30px 20px 30px 20px;
+    background-color: rgba(0, 0, 0, 0.35);
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgb(97, 97, 255);
+    background-color: rgba(0, 0, 0, 0.35);
+    font-size: 30px;
+    text-align: center;
+    margin: 20px; 
+    padding: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    color: maroon;
+    background-color: rgba(0, 0, 0, 0.35);
+    margin: 20px; 
+    padding: 10px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: rgb(255, 60, 60);
+    background-image: url(images/hummingbird.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+b {
+    color: blueviolet;
+    text-transform: uppercase;
+    background-color: rgb(235, 179, 235);
+}
+
+.first {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.second {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.amarante-regular {
+  font-family: "Amarante", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kumar-one-outline-regular {
+  font-family: "Kumar One Outline", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
