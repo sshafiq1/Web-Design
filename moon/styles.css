@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+body {
+    background-color: gray;
+    color: white;
+}
+
+/* header + nav bar */
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+li {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* first section (opener) */
+.quote {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#section1 {
+    background-image: url(moon-images/stars.jpg);
+    background-size: cover;
+}
+
+.bluemoon {
+    background-image: url(moon-images/moon-blue.png); /* alt way to add images, without html img tag */
+    width: 600px;
+    height: 600px;
+    background-size: contain; /* cover also works? */
+}
+
+/* second section (moon facts) */
+#section2 {
+    background-image: url(moon-images/galaxy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh; /* viewport height */
+    width: 100%;
+}
+
+.flex-column {
+    text-align: center;
+    width: 25%; 
+    margin: 0 50px;
+}
+
+/* less pixels make better responsive design (start trying to think in percentages and viewport height instead of pixels) */
+
+/* third section (videos) */
+#section3 {
+    background-color: black;
+}
+
+iframe {
+    margin: 100px 50px;
+}
+
+/* flex box stuff */
+.flex-area {
+    display: flex;
+    /* display flex always goes on the parent */
+    flex-direction: row;
+    justify-content: center;
+    /* justify content to centering horizontally flex boxes */
+    align-items: center;
+    /* align-items for vertically centering flex boxes */
+}
