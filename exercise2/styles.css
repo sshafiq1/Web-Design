@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: "bricolage-grotesque", sans-serif;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-family: "bricolage-grotesque", sans-serif;
+}
+
+p {
+    font-family: "roboto", "bricolage-grotesque", sans-serif;
+}
+
+* {
+    background-color: bisque;
+}
+
+.flex-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-text {
+    text-align: right;
+    width: 25%; 
+    margin: 0 50px;
+}
+
+
+.bricolage-grotesque {
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.flex-footer {
+    justify-content: space-between;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    font-family: "Roboto", sans-serif;
+}
+
+.left-align { 
+    text-align: left;
+}
+
+img {
+    height: 500px;
+}
