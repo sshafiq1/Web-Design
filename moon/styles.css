@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tagesschrift-regular {
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.bitcount-grid-double {
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+body {
+    background-color: gray;
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h3 a { 
+    color: white;
+}
+
+h3 a:visited {
+    color: pink;
+}
+
+/* header + nav bar */
+header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+h1 {
+    font-size: 72px;
+    margin: 20px 0px 0px 0px;
+}
+
+li {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* first section (opener) */
+.quote {
+    /* text-align: center;
+    padding: 50px 0px; */
+    position: relative;
+    top: 300px;
+    left: 10%;
+    width: 50%; 
+    z-index: 10;
+}
+
+#section1 {
+    background-image: url(moon-images/stars.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.redmoon {
+    background-image: url(moon-images/moon-red.png); /* alt way to add images, without html img tag */
+    width: 700px;
+    height: 700px;
+    background-size: contain; /* cover also works? */
+    position: absolute; /* when you use position absolute, you want the parent to be position relative */
+    z-index: 9;
+    bottom: -100px;
+    right: -100px;
+}
+
+.bluemoon {
+    background-image: url(moon-images/moon-blue.png); /* alt way to add images, without html img tag */
+    width: 800px;
+    height: 800px;
+    background-size: contain; /* cover also works? */
+    position: absolute; /* when you use position absolute, you want the parent to be position relative */
+    z-index: 8;
+    top: -100px;
+    right: -100px;
+}
+
+.bwmoon {
+    background-image: url(moon-images/moon-bw.png); /* alt way to add images, without html img tag */
+    width: 600px;
+    height: 600px;
+    background-size: contain; /* cover also works? */
+    position: absolute; /* when you use position absolute, you want the parent to be position relative */
+    z-index: 7;
+    bottom: -100px;
+    left: -100px;
+}
+
+/* second section (moon facts) */
+#section2 {
+    background-image: url(moon-images/galaxy.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh; /* viewport height */
+    width: 100%;
+}
+
+.flex-column {
+    text-align: center;
+    width: 25%; 
+    margin: 0 50px;
+}
+
+/* less pixels make better responsive design (start trying to think in percentages and viewport height instead of pixels) */
+
+/* third section (videos) */
+#section3 {
+    background-color: black;
+}
+
+iframe {
+    margin: 100px 50px;
+}
+
+/* flex box stuff */
+.flex-area {
+    display: flex;
+    /* display flex always goes on the parent */
+    flex-direction: row;
+    justify-content: center;
+    /* justify content to centering horizontally flex boxes */
+    align-items: center;
+    /* align-items for vertically centering flex boxes */
+}
+
+#section4 {
+    background-color: black;
+    padding: 100px 0px 100px 0px;
+}
+
+/* phases / grid section */
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+text-align: center;
+width: 60%;
+margin: 0 auto;
+}
+
+
+.div1 { 
+    grid-area: 1 / 1 / 2 / 4; 
+    background-image: url(moon-images/phases-all.jpg);
+    background-size: contain;
+    background-position: center;
+    color: rgb(71, 156, 185);
+}
+
+.div2 { 
+    grid-area: 2 / 1 / 3 / 2; 
+    background-image: url(moon-images/phase1.jpg);
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div3 { 
+    grid-area: 2 / 2 / 3 / 3; 
+    background-image: url(moon-images/phase2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div4 { 
+    grid-area: 2 / 3 / 3 / 4; 
+    background-image: url(moon-images/phase3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div5 { 
+    grid-area: 3 / 1 / 4 / 2; 
+    background-image: url(moon-images/phase4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div6 { 
+    grid-area: 3 / 2 / 4 / 3; 
+    background-image: url(moon-images/phase5.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div7 { 
+    grid-area: 3 / 3 / 4 / 4; 
+    background-image: url(moon-images/phase6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div8 { 
+    grid-area: 4 / 1 / 5 / 2; 
+    background-image: url(moon-images/phase7.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div9 { 
+    grid-area: 4 / 2 / 5 / 3; 
+    background-image: url(moon-images/phase8.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#section4 h2 { /* only targeting the h2 inside section4 (could also use parent or div1 */
+    font-size: 36px;
+}
+
+p {
+    text-transform: uppercase;
+    color: rgb(71, 156, 185);
+    font-weight: 600;
+}
+
+.parent * { /* all children of the parent will take these properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
