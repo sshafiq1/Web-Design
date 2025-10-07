@@ -48,19 +48,32 @@ nav a:visited {
 }
 
 #section1 {
-    background-color: #ffecc8;
+    background-color: #f6efe0;
     width: 100%;
     height: 100vh;
     position: relative;
 }
 
 .leftborder {
-    background-image: url(images/border_left.png);
-    width: 40px;
+    width: 10%;
+    height: 100vh;
     background-size: contain;
     position: absolute;
-    top: 0px;
-    left: 0px;
+    background-image: url(images/border_left.png);
+    z-index: 10;
+    overflow: hidden;
+    left: 0;
+}
+
+.rightborder {
+    width: 10%;
+    height: 100vh;
+    background-size: contain;
+    position: absolute;
+    background-image: url(images/border_left.png);
+    z-index: 10;
+    overflow: hidden;
+    right: 0;
 }
 
 #section2 {
