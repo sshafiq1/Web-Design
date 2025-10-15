@@ -47,13 +47,6 @@ nav a:visited {
     color: #cf6564;
 }
 
-#section1 {
-    background-color: #f6efe0;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-
 .leftborder {
     width: 10%;
     height: 100vh;
@@ -70,15 +63,44 @@ nav a:visited {
     height: 100vh;
     background-size: contain;
     position: absolute;
-    background-image: url(images/border_left.png);
+    background-image: url(images/border_right.png);
     z-index: 10;
     overflow: hidden;
     right: 0;
 }
 
-#section2 {
+.greenleftborder {
+    width: 10%;
+    height: 100vh;
+    background-size: contain;
+    position: absolute;
+    background-image: url(images/leftgreenborder.png);
+    z-index: 10;
+    overflow: hidden;
+    left: 0;
+}
+
+.greenrightborder {
+    width: 10%;
+    height: 100vh;
+    background-size: contain;
+    position: absolute;
+    background-image: url(images/rightgreenborder.png);
+    z-index: 10;
+    overflow: hidden;
+    right: 0;
+}
+
+#section1 {
     background-color: #344338;
     width: 100%;
     height: 100vh;
+    position: relative;
 }
 
+#section2 {
+    background-color: #f6efe0;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
