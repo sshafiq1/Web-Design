@@ -42,3 +42,13 @@
         opacity: 1;
     }
 }
+
+.mostrecentimg:hover{
+    background-color: orangered;
+    rotate: calc(10deg);
+    transform: scale(1.05);
+}
+
+.imganimation img:hover{
+    border: 10px solid lightgoldenrodyellow;
+}

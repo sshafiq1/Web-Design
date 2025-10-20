@@ -3,12 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barriecito';
+    color: orange;
 }
 
 .barriecito-regular {
   font-family: "Barriecito", system-ui;
   font-weight: 400;
   font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body{
@@ -75,6 +80,10 @@ nav {
     color: orange;
 }
 
+.navlinks li a:visited{
+    color: orangered;
+}
+
 .content {
     display: flex;
     align-items: center;
@@ -89,6 +98,42 @@ nav {
     background-color: orange;
 }
 
+#content1 h1{
+    color: lightgoldenrodyellow;
+    margin: 10px 0px 0px 0px;
+}
+
+#content1 h2{
+    color: lightgoldenrodyellow;
+    margin: 40px 0px 20px 0px;
+}
+
+#content1 h3{
+    color: lightgoldenrodyellow;
+    margin: 0px 0px 20px 0px;
+}
+
+#content1 img{
+    width: 250px;
+    margin: 20px 0px 0px 0px;
+}
+
+#content1 p{
+    color: lightgoldenrodyellow;
+    margin: 0px 0px 65px 0px;
+}
+
+.imganimation img{
+    border: 5px solid lightgoldenrodyellow;
+    transition: border 0.3s ease;
+}
+
+.flex-column {
+    text-align: center;
+    width: 25%; 
+    margin: 0 50px;
+}
+
 #content2 {
     width: 100%;
     height: 100vh;
@@ -101,3 +146,52 @@ nav {
     overflow: hidden;
     background-color: orange;
 }
+
+#content2{
+    position: relative;
+}
+
+.title{
+    margin-top: 3%;
+}
+
+.title h1{
+    font-size: 50px;
+}
+
+.mostrecentimg{
+    margin-top: 5%;
+    padding: 10px;
+    background-color: orange;
+    transition: background-color 0.3s ease, rotate 0.3s ease, transform 0.3s ease;
+}
+
+.mostrecentimg img{
+    height: 500px;
+}
+
+.text{
+    width: 25%;
+    margin: 0px 0px 0px 75px;
+    text-align: left;
+}
+
+.text h1{
+    font-size: 30px;
+}
+
+.text p{
+    font-size: 20px;
+}
+
+.arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
