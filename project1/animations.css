@@ -1,0 +1,44 @@
+.backgrounddesign .toptext{
+    animation: toptextanim 2s ease;
+}
+
+@keyframes toptextanim {
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.backgrounddesign .bottomtext{
+    animation: bottomtextanim 2s ease;
+}
+
+@keyframes bottomtextanim {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.content .bannerimage{
+    animation: banimage 2s ease;
+}
+
+@keyframes banimage{
+    0%{
+        transform: translateY(500px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

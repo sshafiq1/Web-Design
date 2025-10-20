@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barriecito';
+}
+
+.barriecito-regular {
+  font-family: "Barriecito", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+#header {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.backgrounddesign {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    font-size: 20rem;
+    font-weight: bolder;
+    z-index: -1;
+}
+
+.backgrounddesign span{
+    background: linear-gradient(90deg, goldenrod, orange);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.backgrounddesign .toptext{
+    position: absolute;
+    top: 0px;
+}
+
+.backgrounddesign .middle{
+    position: absolute;
+    top: 0px;
+    left: 50vw;
+}
+
+.backgrounddesign .bottomtext{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 140px;
+}
+
+.brand img{
+    width: 90px;
+}
+
+.navlinks{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navlinks li a{
+    color: orange;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin: 0px 75px;
+}
+
+#content1 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: orange;
+}
+
+#content2 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#footer {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: orange;
+}
