@@ -13,3 +13,5 @@ Project 1: https://sshafiq1.github.io/Web-Design/project1/
 In-Class Exercise (Oct 20th): https://sshafiq1.github.io/Web-Design/cupcake/
 
 Project 2: https://sshafiq1.github.io/Web-Design/project2/
+
+Exercise 3: https://sshafiq1.github.io/Web-Design/exercise3/
