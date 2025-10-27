@@ -1,4 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
   direction: rtl;
 }
 
+.center {
+  margin: 0 auto;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.center p{
+  font-size: 36px;
+}
