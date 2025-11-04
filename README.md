@@ -15,3 +15,5 @@ In-Class Exercise (Oct 20th): https://sshafiq1.github.io/Web-Design/cupcake/
 Project 2: https://sshafiq1.github.io/Web-Design/project2/
 
 Exercise 3: https://sshafiq1.github.io/Web-Design/exercise3/
+
+In-Class Exercise (Nov 3rd): https://sshafiq1.github.io/Web-Design/giveitup/
