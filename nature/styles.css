@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#leaves {
+    background: #833AB4;
+    background: linear-gradient(120deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 5vw;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    display: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.purpleleaf{
+    width: 200px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    rotate: 10deg;
+}
+
+.yellowleaf {
+    width: 300px;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+    rotate: -10deg;
+    display: none;
+}
+
+.greenleaf {
+    width: 200px;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    rotate: 15deg;
+    display: none;
+}
