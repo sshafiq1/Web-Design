@@ -17,3 +17,7 @@ Project 2: https://sshafiq1.github.io/Web-Design/project2/
 Exercise 3: https://sshafiq1.github.io/Web-Design/exercise3/
 
 In-Class Exercise (Nov 3rd): https://sshafiq1.github.io/Web-Design/giveitup/
+
+In-Class Exercise (Nov 10th): https://sshafiq1.github.io/Web-Design/nature/
+
+Exercise 4: https://sshafiq1.github.io/Web-Design/exercise4/
