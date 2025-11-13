@@ -57,6 +57,15 @@ body{
 
 .page-content{
     transform: rotate(90deg);
+    position: relative;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.flex {
+    display: flex;
 }
 
 .stack-sans-headline {
@@ -79,4 +88,64 @@ h2 {
 p {
     font-family: "Stack Sans Headline", sans-serif;
     color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.image1 {
+    position: absolute;
+    bottom: -10%;
+    right: 15%;
+    width: 30%;
+    transform: rotate(90deg);
+}
+
+.image2 {
+    transform: rotate(90deg);
+    height: 40%;
+}
+
+.image3 {
+    transform: rotate(90deg);
+    width: 40%;
+    bottom: -120%;
+    right: 10%;
+    position: absolute;
+}
+
+.image4 {
+    transform: rotate(90deg);
+    width: 40%;
+    position: absolute;
+    bottom: -210%;
+    left: 10%;
+}
+
+.image5 {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.image6 {
+    transform: rotate(90deg);  
+}
+
+.image7 {
+    transform: rotate(90deg);
+    position: absolute; 
+    width: 50%;
+}
+
+.finalimage {
+    transform: rotate(90deg);
+    height: 90%;
+}
+
+.lastpage {
+    background: #000000;
 }
