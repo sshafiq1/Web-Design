@@ -16,7 +16,6 @@
   font-style: normal;
 }
 
-
 .grenze-gotisch {
   font-family: "Grenze Gotisch", serif;
   font-optical-sizing: auto;
@@ -43,7 +42,7 @@
 .trouble{
   width: 100%;
   height: 100vh;
-  background-image: url(images/seadragon.jpg);
+  background-image: url(images/cabin.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -52,14 +51,30 @@
 .sea_dragon {
   width: 100%;
   height: 100vh;
-  background-image: url(images/cabin.jpg);
+  background-image: url(images/seadragon.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
 
-.text_color {
-  color: white;
+.maybe {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/death.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.title_color_seadragon {
+  background-image: linear-gradient(to right, #202327 75%, #619596 100%); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.title_color_maybe {
+  color: #202132;
 }
 
 .sec_color_intro {
@@ -68,6 +83,14 @@
 
 .sec_color_trouble{
   background-color: #73693c;
+}
+
+.sec_color_dragon{
+  background-color: #619596;
+}
+
+.sec_color_maybe{
+  background-color: #BCbBBF;
 }
 
 .title_right {
@@ -141,6 +164,10 @@
     animation: slide 10s linear infinite;
 }
 
+.sec_color_maybe .border {
+  background-image: url(images/deathborder.png);
+}
+
 @keyframes slide {
   0% {
     background-position: 0% 0%; /* Starting position */
@@ -176,7 +203,13 @@
 .sec_color_trouble .choose a {
     background-color: #3c2104;
     color: #73693c;
-    text-decoration: none;
-    text-align: center;
-    display: block;
+}
+
+.sec_color_dragon .choose a {
+    background-color: #202327;
+    color: #619596;
+}
+
+.sec_color_dragon .choose {
+    top: 55vh;
 }

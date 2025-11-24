@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.eagle-lake-regular {
+  font-family: "Eagle Lake", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grenze-gotisch {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: medium;
+}
+
+.stack-sans-headline {
+  font-family: "Stack Sans Headline", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.map{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/map.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  top: 9%;
+  left: 5%;
+  font-size: 10vh;
+  font-family: UnifrakturCook, "Stack Sans Headline";
+  color: #946F55;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #946F55;
+}
+
+.img {
+    width: 100%;
+}
+
+.border {
+    width: 100%;
+    height: 20%;
+    background-size: contain;
+    position: absolute;
+    background-image: url(images/bordership_right.png);
+    z-index: 10;
+    bottom: 0;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+  0% {
+    background-position: 0% 0%; /* Starting position */
+  }
+  100% {
+    background-position: 100% 0%; /* Ending position */
+  }
+}
