@@ -21,3 +21,5 @@ In-Class Exercise (Nov 3rd): https://sshafiq1.github.io/Web-Design/giveitup/
 In-Class Exercise (Nov 10th): https://sshafiq1.github.io/Web-Design/nature/
 
 Exercise 4: https://sshafiq1.github.io/Web-Design/exercise4/
+
+Portfolio: https://sshafiq1.github.io/Web-Design/portfolio/
